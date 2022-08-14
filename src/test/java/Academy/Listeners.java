@@ -28,7 +28,21 @@ public class Listeners extends base implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		test.log(LogStatus.PASS, "Test Passed");
+		test.log(LogStatus.PASS, "Test Passed");
+		test.log(LogStatus.PASS, "Test Passed");
+		test.log(LogStatus.PASS, "Test Passed");
+		test.log(LogStatus.PASS, "Test Passed");
+		test.log(LogStatus.PASS, "Test Passed");
+		test.log(LogStatus.PASS, "Second guy");
+		test.log(LogStatus.PASS, "First guy");
+		
+		
+		
+		
+	
+	
 	}
+	
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
@@ -36,9 +50,9 @@ public class Listeners extends base implements ITestListener {
 		test.log(LogStatus.FAIL,"Fail",result.getThrowable());
 		WebDriver driver =null;
 		String testMethodName =result.getMethod().getMethodName();
+		String testMethodName1 =result.getMethod().getMethodName();
 		
 		try {
-			
 			
 			
 			
