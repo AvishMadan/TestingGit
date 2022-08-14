@@ -35,7 +35,7 @@ public class Listeners extends base implements ITestListener {
 		test.log(LogStatus.PASS, "Test Passed");
 		test.log(LogStatus.PASS, "Second guy");
 		
-		
+		test.log(LogStatus.PASS, "Second guy second time");
 		
 		
 		
