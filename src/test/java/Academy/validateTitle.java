@@ -44,7 +44,7 @@ public class validateTitle extends base{
 		 log.info("Successfully validated Text message");
 		 System.out.println("Test completed");
 		 System.out.println("Test completed");
-				 
+		 System.out.println("Test completed");	 
 		;
 	
 		
